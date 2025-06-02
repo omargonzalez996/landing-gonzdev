@@ -1,2 +1,33 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+body {
+    font-family: "Share Tech", sans-serif;
+    background-color: #020618;
+}
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("/fonts/bebas-neue.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Share Tech";
+    src: url("/fonts/share-tech.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.share-tech-regular {
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,0 +1,35 @@
+{
+    "es": {
+        "name": "Español",
+        "meta": {
+            "version": "1.0",
+            "description": "Sample data for testing purposes"
+        },
+        "hero": {
+            "title": "GONZ_DEV",
+            "subtitle": "Where tech meets creativity"
+        },
+        "about": {
+            "title": "SOBRE MI",
+            "profileData": {
+                "name": "Omar Gonzalez",
+                "title": "Ingeniero en Tiecnologías de la Información",
+                "handle": "GonzDev",
+                "status": "En linea",
+                "contactText": "Contactame"
+            },
+            "description": "Soy un ingeniero en Tecnologías de la Información apasionado por transformar ideas en soluciones digitales innovadoras. Con experiencia en desarrollo web full-stack, me especializo en construir aplicaciones modernas, responsivas y centradas en el usuario utilizando tecnologías como React, Python, Javascript y Node. Mi enfoque combina creatividad técnica con un compromiso por escribir código limpio y eficiente, asegurando experiencias digitales que no solo cumplen con los objetivos, sino que también deleitan a los usuarios.  Desde mis inicios en la programación, he disfrutado resolver problemas complejos y aprender continuamente sobre nuevas herramientas y tendencias en el desarrollo web. He trabajado en proyectos que van desde plataformas de comercio electrónico hasta aplicaciones personalizadas, siempre buscando optimizar el rendimiento y la usabilidad.",
+            "cta": "¡Contáctame y hagamos realidad tu próxima gran idea!",
+            "skills": [
+                "Desarrollo Web",
+                "Diseño UI/UX",
+                "Desarrollo Backend",
+                "Desarrollo Frontend",
+                "JavaScript",
+                "HTML",
+                "React",
+                "Node.js"
+            ]
+        }
+    }
+}
