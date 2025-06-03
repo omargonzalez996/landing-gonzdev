@@ -3,7 +3,9 @@ import { useEffect, useState } from "react";
 import data from "./data/data.json";
 
 import Hero from "./components/Hero";
+import Services from "./components/Services";
 import About from "./components/About";
+import Footer from "./components/Footer";
 
 function App() {
   const [language, setLanguage] = useState("es");
@@ -14,14 +16,12 @@ function App() {
   }, [language]);
 
   return (
-    <>
-      <main className="flex flex-col w-dvw h-dvh justify-start items-center bg-slate-950">
-        <content className="flex flex-col w-full">
-          <Hero heroData={currentData.hero} />
-          <About aboutData={currentData.about} />
-        </content>
-      </main>
-    </>
+    <main className="flex flex-col w-screen min-h-dvh justify-start items-center bg-neutral box-border">
+      <Hero heroData={currentData.hero} />
+      <Services servicesData={currentData.services} />
+      <About aboutData={currentData.about} />
+      <Footer footerData={currentData.footer} />
+    </main>
   );
 }
 

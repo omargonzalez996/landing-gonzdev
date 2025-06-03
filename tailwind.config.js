@@ -1,3 +1,5 @@
+import { keyframes } from 'framer-motion';
+
 /** @type {import('tailwindcss').Config} */
 export default {
     content: [
@@ -9,6 +11,15 @@ export default {
             fontFamily: {
                 'bebas': ['"Bebas Neue"', 'sans-serif'],
                 'share-tech': ['"Share Tech"', 'sans-serif'],
+            },
+            keyframes: {
+                shine: {
+                    '0%': { 'background-position': '100%' },
+                    '100%': { 'background-position': '-100%' },
+                },
+            },
+            animation: {
+                shine: 'shine 5s linear infinite',
             },
         },
     },

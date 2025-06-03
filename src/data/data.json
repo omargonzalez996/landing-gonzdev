@@ -7,10 +7,38 @@
         },
         "hero": {
             "title": "GONZ_DEV",
-            "subtitle": "Where tech meets creativity"
+            "subtitle": "CREATIVE X TECH"
+        },
+        "services": {
+            "title": [
+                "|SERVICIOS|",
+                "|QUÉ PUEDO HACER|"
+            ],
+            "description": "Ofrezco una variedad de servicios para ayudar a llevar tu proyecto al siguiente nivel.",
+            "servicesList": [
+                {
+                    "title": "DESARROLLO WEB",
+                    "description": "Construyo aplicaciones web modernas y responsivas utilizando las últimas tecnologías.",
+                    "image_url": "/services/webdev.jpg"
+                },
+                {
+                    "title": "CONSULTORÍA IT",
+                    "description": "Asesoro sobre las mejores prácticas y soluciones tecnológicas para tu negocio.",
+                    "image_url": "/services/consultoria.jpg"
+                },
+                {
+                    "title": "Soporte Técnico",
+                    "description": "Proporciono asistencia técnica para resolver problemas y optimizar sistemas existentes.",
+                    "image_url": "/services/techsupport.jpg"
+                }
+            ],
+            "cta": "¡Contáctame!"
         },
         "about": {
-            "title": "SOBRE MI",
+            "title": [
+                "|SOBRE MI|",
+                "|QUIÉN SOY|"
+            ],
             "profileData": {
                 "name": "Omar Gonzalez",
                 "title": "Ingeniero en Tiecnologías de la Información",
@@ -20,16 +48,37 @@
             },
             "description": "Soy un ingeniero en Tecnologías de la Información apasionado por transformar ideas en soluciones digitales innovadoras. Con experiencia en desarrollo web full-stack, me especializo en construir aplicaciones modernas, responsivas y centradas en el usuario utilizando tecnologías como React, Python, Javascript y Node. Mi enfoque combina creatividad técnica con un compromiso por escribir código limpio y eficiente, asegurando experiencias digitales que no solo cumplen con los objetivos, sino que también deleitan a los usuarios.  Desde mis inicios en la programación, he disfrutado resolver problemas complejos y aprender continuamente sobre nuevas herramientas y tendencias en el desarrollo web. He trabajado en proyectos que van desde plataformas de comercio electrónico hasta aplicaciones personalizadas, siempre buscando optimizar el rendimiento y la usabilidad.",
             "cta": "¡Contáctame y hagamos realidad tu próxima gran idea!",
-            "skills": [
-                "Desarrollo Web",
-                "Diseño UI/UX",
-                "Desarrollo Backend",
-                "Desarrollo Frontend",
-                "JavaScript",
-                "HTML",
-                "React",
-                "Node.js"
-            ]
+            "skills": {
+                "title": "HABILIDADES",
+                "description": "Estas son algunas de las tecnologías y herramientas con las que trabajo regularmente.",
+                "skills": [
+                    "Diseño UI/UX",
+                    "Desarrollo FullStack",
+                    "JavaScript",
+                    "Node.js",
+                    "Python",
+                    "FastAPI",
+                    "SQL",
+                    "NoSQL",
+                    "React"
+                ]
+            },
+            "cta_button": "Enviame un mensaje"
+        },
+        "footer": {
+            "company": "GONZ_DEV*GONZ_DEV*GONZ_DEV*GONZ_DEV*",
+            "slogan": "CREATIVE X TECH",
+            "contact": {
+                "email": "omar.gonz996@gmail.com",
+                "email_href": "mailto:omar.gonz996@gmail.com",
+                "phone": "+52 466 101 0252",
+                "phone_href": "tel:+524661010252"
+            },
+            "social": {
+                "github": "https://github.com/omargonzalez996",
+                "linkedin": "https://www.linkedin.com/in/luis-omar-gonz%C3%A1lez-garc%C3%ADa-0853b5257/",
+                "instagram": "https://www.instagram.com/omi.who96/"
+            }
         }
     }
 }
